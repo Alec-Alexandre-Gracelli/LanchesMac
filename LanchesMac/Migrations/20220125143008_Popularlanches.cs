@@ -22,7 +22,7 @@ namespace LanchesMac.Migrations
 
             migrationBuilder.Sql("INSERT INTO Lanches(CategoriaId,DescricaoCurta,DescricaoDetalhada,EmEstoque,ImagemThumbnailUrl,ImagemUrl,IsLanchePreferido,Nome,Preco) " +
                 "VALUES(2,'Pão, Integral, Queijo Branco, Peito de Peru, Cenoura, Alface, Iogurte','Pão integral natural com queijo branco, peito de peru e cenoura ralada com alface picado e iorgute natural. '," +
-                "1,'http://www.macoratti.net/Imagens/lanches/lanchenatural1.jpg','http://www.macoratti.net/Imagens/lanches/lanchenatural.jpg', 1 ,'Lanche Natural Peito Peru', 15.00)");
+                "1,'http://www.macoratti.net/Imagens/lanches/lanchenatural.jpg','http://www.macoratti.net/Imagens/lanches/lanchenatural.jpg', 1 ,'Lanche Natural Peito Peru', 15.00)");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
