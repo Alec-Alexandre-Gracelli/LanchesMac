@@ -50,7 +50,7 @@ namespace LanchesMac.Models
         [ScaffoldColumn(false)]
         [Column(TypeName = "decimal(18,2)")]
         [Display(Name = "Total do Pedido")]
-        public int PedidoTotal { get; set; }
+        public decimal PedidoTotal { get; set; }
 
         [ScaffoldColumn(false)]
         [Display(Name = "Itens no Pedido")]
